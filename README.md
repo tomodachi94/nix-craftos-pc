@@ -39,6 +39,10 @@ outputs = { nixpkgs, home-manager, nix-craftos-pc, ... }: {
 
 Run `nix flake lock --update-input nix-craftos-pc` to update your flake inputs, and you should be able to access all options through the `programs.craftos-pc` module.
 
+## Support
+
+Feel free to open an issue if you encounter any issues. For a more informal space for discussion, feel free to join the [Discord server](https://discord.gg/Xs3VKNJrMb).
+
 ## Stability
 
 `nix-craftos-pc` is in eternal beta. The maintainers will attempt to keep the module's options stable, but they will inevitably change as `nix-craftos-pc` and CraftOS-PC itself evolve.
